@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Family Members Recognition App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <center>
+            <h1 class="btn btn-default">Family Members Recognition App</h1>
+        <br><br><br>
+        <div>
+            <label> Members of Family:</label>
+            <br>
+            <h3>Brother</h3>
+            <hr>
+            <h3>Sister</h3>
+            <hr>
+            <h3>Mother</h3>
+            <hr>
+            <h3>Father</h3>
+            <hr>
+        </div> 
+        <div id="camera"></div>
+        <div id="result"></div>
+        <button class="btn btn-info">Capture Image</button>
+        <br><br><br>
+        <button class="btn btn-success">Identify Image</button>
+        <div>Member: <span id="name"></span></div>
+        <div>Accuracy: <span id="accuracy"></span></div>
+        </center>
+    </div>
+</body>
+</html>

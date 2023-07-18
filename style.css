@@ -1,0 +1,15 @@
+body{
+    background: aquamarine;
+    text-align: center;
+}
+h3{
+    color: red;
+}
+label{
+    color: blue;
+}
+#webcam{
+    border: 2px black solid;
+    width: 300;
+    height: 300;
+}
